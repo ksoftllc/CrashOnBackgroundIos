@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="CrashOnBackgroundIos.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:CrashOnBackgroundIos"
-    Shell.FlyoutBehavior="Disabled"
-    Title="CrashOnBackgroundIos">
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:CrashOnBackgroundIos"
+       FlyoutBackground="{AppThemeBinding Light=White, Dark=#919191}"
+    xmlns:xct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+       x:Class="CrashOnBackgroundIos.AppShell">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <TabBar>
+       <Tab Title="Cats">
+           <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+       </Tab>
+        <Tab Title="Dogs"
+            >
+           <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+       </Tab>
+    </TabBar>
 </Shell>

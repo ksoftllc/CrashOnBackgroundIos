@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>API_KEY</key>
+    <string>AIzaSyAbX1e7CAfNe_964Pgf48x5pqX7cPCZHvY</string>
+    <key>GCM_SENDER_ID</key>
+    <string>929625244871</string>
+    <key>PLIST_VERSION</key>
+    <string>1</string>
+    <key>BUNDLE_ID</key>
+    <string>com.bluedotsolutions.fleethdmobile</string>
+    <key>PROJECT_ID</key>
+    <string>fleethd-c8765</string>
+    <key>STORAGE_BUCKET</key>
+    <string>fleethd-c8765.appspot.com</string>
+    <key>IS_ADS_ENABLED</key>
+    <false></false>
+    <key>IS_ANALYTICS_ENABLED</key>
+    <true></true>
+    <key>IS_APPINVITE_ENABLED</key>
+    <true></true>
+    <key>IS_GCM_ENABLED</key>
+    <true></true>
+    <key>IS_SIGNIN_ENABLED</key>
+    <true></true>
+    <key>GOOGLE_APP_ID</key>
+    <string>1:929625244871:ios:97959438f1fc7249cc2ae2</string>
+  </dict>
+</plist>
